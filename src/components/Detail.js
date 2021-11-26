@@ -7,29 +7,29 @@ function Detail() {
       <Background>
         <img
           src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9D8AEB7DE234898392BFD20E7D9B112B841E920AF9A3F54CCFB966722AFF3461/scale?width=1920&aspectRatio=1.78&format=jpeg"
-          alt=""
+          alt="Bao Background"
         />
       </Background>
       <ImageTitle>
         <img
           src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EF737B93E2F2ABE27C74CBBEB322F18A421E7986129E9989587CEF2295B0447F/scale?width=1344&aspectRatio=1.78&format=png"
-          alt=""
+          alt="Bao Icon"
         />
       </ImageTitle>
       <Controls>
         <PlayButton>
-          <img src="/images/play-icon-black.png" alt="" />
+          <img src="/images/play-icon-black.png" alt="play icon" />
           <span>PLAY</span>
         </PlayButton>
         <TrailerButton>
-          <img src="/images/play-icon-white.png" alt="" />
+          <img src="/images/play-icon-white.png" alt="trailer icon" />
           <span>TRAILER</span>
         </TrailerButton>
         <AddButton>
           <span>+</span>
         </AddButton>
         <GroupWatchButton>
-          <img src="/images/group-icon.png" alt="" />
+          <img src="/images/group-icon.png" alt="group watch icon" />
         </GroupWatchButton>
       </Controls>
       <Subtitle>2018 ● 7m ● Family, Fantasy, Kids, Animation</Subtitle>
@@ -139,4 +139,5 @@ const Description = styled.div`
   font-size: 20px;
   margin-top: 16px;
   color: rgb(249, 249, 249);
+  max-width: 760px;
 `;

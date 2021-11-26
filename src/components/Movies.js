@@ -9,26 +9,26 @@ function Movies() {
         <Wrap>
           <img
             src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BF6E593471D989F6428CEC0D0B3FFA04DDEF5728D4ED0D58FB2F2B9CDDDE3907/scale?width=1200&aspectRatio=1.78&format=jpeg"
-            alt=""
-          ></img>
+            alt="The Simpsons"
+          />
         </Wrap>
         <Wrap>
           <img
-            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BF6E593471D989F6428CEC0D0B3FFA04DDEF5728D4ED0D58FB2F2B9CDDDE3907/scale?width=1200&aspectRatio=1.78&format=jpeg"
-            alt=""
-          ></img>
+            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/706C68FF1CEA5A9C2AE0608892C2DF79E4AC1F0DDB4BFF7FE6DAFC36DAFC0286/scale?width=400&aspectRatio=1.78&format=jpeg"
+            alt="Bao"
+          />
         </Wrap>
         <Wrap>
           <img
-            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BF6E593471D989F6428CEC0D0B3FFA04DDEF5728D4ED0D58FB2F2B9CDDDE3907/scale?width=1200&aspectRatio=1.78&format=jpeg"
-            alt=""
-          ></img>
+            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E486A02FA7B60669E77958D4FAE567AA5C9C57344006E1D1ADFC080719545166/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals"
+            alt="Soul"
+          />
         </Wrap>
         <Wrap>
           <img
-            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BF6E593471D989F6428CEC0D0B3FFA04DDEF5728D4ED0D58FB2F2B9CDDDE3907/scale?width=1200&aspectRatio=1.78&format=jpeg"
-            alt=""
-          ></img>
+            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0ECD36DD35658155915685271440833C29ED87E788CF8AE111AA6BCA6B939C37/scale?width=400&aspectRatio=1.78&format=jpeg"
+            alt="Tangled"
+          />
         </Wrap>
       </Content>
     </Container>
