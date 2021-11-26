@@ -37,10 +37,13 @@ function Movies() {
 
 export default Movies;
 
-const Container = styled.div``;
+const Container = styled.div`
+  /* add padding-bottom to prevent overflow-y when hover on */
+  padding: 0 0 26px;
+`;
 
 const Content = styled.div`
-  margin-top: 20px;
+  margin-top: 25px;
   display: grid;
   grid-gap: 25px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
