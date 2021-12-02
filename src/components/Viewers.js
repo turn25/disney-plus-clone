@@ -52,6 +52,10 @@ const Container = styled.div`
   grid-gap: 25px; /* space beetween grid items */
   grid-template-columns: repeat(5, minmax(0, 1fr));
   padding: 30px 0 26px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 `;
 
 const Wrap = styled.div`

@@ -6,32 +6,32 @@ function Header() {
     <Nav>
       <Logo src="/images/logo.svg" />
       <NavMenu>
-        <a>
+        <a href="/home">
           <img src="/images/home-icon.svg" alt="home-icon" />
           <span>Home</span>
         </a>
 
-        <a>
+        <a href="/home">
           <img src="/images/search-icon.svg" alt="search-icon" />
           <span>Search</span>
         </a>
 
-        <a>
+        <a href="/home">
           <img src="/images/watchlist-icon.svg" alt="watchlist-icon" />
           <span>Watchlist</span>
         </a>
 
-        <a>
+        <a href="/home">
           <img src="/images/original-icon.svg" alt="original-icon" />
           <span>Original</span>
         </a>
 
-        <a>
+        <a href="/home">
           <img src="/images/movie-icon.svg" alt="movie-icon" />
           <span>Movie</span>
         </a>
 
-        <a>
+        <a href="/home">
           <img src="/images/series-icon.svg" alt="series-icon" />
           <span>Series</span>
         </a>
@@ -67,6 +67,8 @@ const NavMenu = styled.div`
     display: flex;
     align-items: center;
     padding: 0 12px;
+    color: #fff;
+    text-decoration: none;
 
     img {
       height: 20px;
@@ -106,6 +108,10 @@ const NavMenu = styled.div`
         opacity: 1;
         transform: scaleX(1);
       }
+    }
+
+    @media (max-width: 768px) {
+      display: none;
     }
   }
 `;

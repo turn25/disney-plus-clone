@@ -1,34 +1,22 @@
 import React from "react";
 import styled from "styled-components";
 
-function Movies() {
+function Movies(props) {
   return (
     <Container>
-      <h4>Recommended for You</h4>
+      <h4>{props.title}</h4>
       <Content>
         <Wrap>
-          <img
-            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/BF6E593471D989F6428CEC0D0B3FFA04DDEF5728D4ED0D58FB2F2B9CDDDE3907/scale?width=1200&aspectRatio=1.78&format=jpeg"
-            alt="The Simpsons"
-          />
+          <img src={props.imgSrc1} alt={props.imgAlt1} />
         </Wrap>
         <Wrap>
-          <img
-            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/706C68FF1CEA5A9C2AE0608892C2DF79E4AC1F0DDB4BFF7FE6DAFC36DAFC0286/scale?width=400&aspectRatio=1.78&format=jpeg"
-            alt="Bao"
-          />
+          <img src={props.imgSrc2} alt={props.imgAlt2} />
         </Wrap>
         <Wrap>
-          <img
-            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E486A02FA7B60669E77958D4FAE567AA5C9C57344006E1D1ADFC080719545166/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals"
-            alt="Soul"
-          />
+          <img src={props.imgSrc3} alt={props.imgAlt3} />
         </Wrap>
         <Wrap>
-          <img
-            src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0ECD36DD35658155915685271440833C29ED87E788CF8AE111AA6BCA6B939C37/scale?width=400&aspectRatio=1.78&format=jpeg"
-            alt="Tangled"
-          />
+          <img src={props.imgSrc4} alt={props.imgAlt4} />
         </Wrap>
       </Content>
     </Container>
@@ -44,9 +32,14 @@ const Container = styled.div`
 
 const Content = styled.div`
   margin-top: 25px;
+  margin-bottom: 25px;
   gap: 25px;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
 `;
 
 const Wrap = styled.div`
